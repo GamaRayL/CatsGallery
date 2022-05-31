@@ -33,7 +33,7 @@ const Card = ({ cat }) => {
       className={css.paper}
     >
       {isShow ? (
-        <div className={css.icon} onClick={handleClick}>
+        <div className={css.iconContainer} onClick={handleClick}>
           {isCatInArray ? (
             <FavoriteIcon
               className={css.iconHollow}
